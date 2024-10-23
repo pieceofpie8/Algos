@@ -5,8 +5,8 @@ from alpaca_trade_api.rest import REST
 
 # Initialize the Alpaca API connection
 BASE_URL = "https://paper-api.alpaca.markets"
-KEY_ID = "PKLA59MMTTTORKAAK8J9"
-SECRET_KEY = "zpqlVjery1nsCzdk8YHKG3VkyOGBWOvzy94v3fXT"
+KEY_ID = "your_key_id"
+SECRET_KEY = "your_secret_key"
 
 api = REST(key_id=KEY_ID, secret_key=SECRET_KEY, base_url=BASE_URL)
 
